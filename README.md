@@ -3,6 +3,11 @@ A polyglot quine for Python and PKZIP.
 
 quine.py.zip is a Python program that prints its own source, commonly known as a [Quine](https://en.wikipedia.org/wiki/Quine_(computing)). It is also a functional .zip file that contains exactly one file, quine.py.zip, which is exactly the same as the source file. Programs which do the same thing when executed in different languages are known as [Polyglots](https://en.wikipedia.org/wiki/Polyglot_(computing)), so this is a two-language polyglot quine for the languages Python and PKZIP.
 
+## Action shots
+
+Although using a hex-editor to view is one option, in my opinion you get a better sense of the structure by seeing it with newlines:
+![Screenshot from Vim](https://github.com/d0sboots/PyZipQuine/raw/master/quine.png)
+
 ## How do you construct such a thing?
 
 First, I recommend reading [Zip Files All The Way Down](https://research.swtch.com/zip), an in-depth writeup of (to the best of my knowledge) the first zip quine. It's a great read, a good primer on quines in general as well as the basics of LZ77, and also part of my inspiration for doing this. Then, forget most of what you read, because the underlying techniques here are totally different. :)
